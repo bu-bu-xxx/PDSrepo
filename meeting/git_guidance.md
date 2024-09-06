@@ -55,3 +55,9 @@ git push <私仓>
 
 > 注意：这一步只能website 操作
 
+打开公仓<https://github.com/PDSorg/PDSrepo>
+
+![1725637305709](./assets/1725637305709.png)
+
+![1725637389907](./assets/1725637389907.jpg)
+
