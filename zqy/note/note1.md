@@ -49,7 +49,9 @@ connectomes hold some topological properties:
 
 
 
-* **shortest path and navigation**
+* **shortest path**(Single Source Shortest Path)
+
+* **navigation**
 
 * ‘fine-grained, coarse-grained, fine-grained’ propagation pattern
 
