@@ -43,3 +43,9 @@
 
 
 
+# DATA preprocessing
+
+* <https://www.kaggle.com/datasets/mdfahimbinamin/adni-1-5t-filtered-preprocessed-quickseg-dataset>
+
+​	[viewer ITKSnap](https://sourceforge.net/projects/itksnap/)
+
