@@ -49,3 +49,50 @@
 
 ​	[viewer ITKSnap](https://sourceforge.net/projects/itksnap/)
 
+* 看`preprocessed`数据
+
+用下面的数据，有`raw and preprocessed`
+
+<https://www.kaggle.com/datasets/mdfahimbinamin/adni-screening-1-5t-ad-complete-dataset>
+
+<https://www.kaggle.com/datasets/mdfahimbinamin/adni-screening-1-5t-mci-complete-dataset>
+
+<https://www.kaggle.com/datasets/mdfahimbinamin/adni-screening-1-5t-cn-complete-dataset>
+
+或者是只有`preprocessed`(推荐)
+
+<https://www.kaggle.com/datasets/mdfahimbinamin/adni-1-5t-filtered-preprocessed-quickseg-dataset>
+
+或者(含 cerebellum.niii)
+
+<https://www.kaggle.com/datasets/mdfahimbinamin/adni-1-5t-fastsurfer-quickseg>
+
+-------------------------------
+
+preprocess的工具[FastSurfer](https://github.com/Deep-MI/FastSurfer)
+
+输出文件是啥意思，看<https://github.com/Deep-MI/FastSurfer/blob/dev/doc/overview/OUTPUT_FILES.md>
+
+示例文件[sample](../dataset/I31143.nii)
+
+只需要看`.stats`文件就可以
+
+* meaning of data
+
+we need to figure out:
+
+1. how to make different data comparable in group subjects? Using `normMean  normStdDev  normMax  normMin`. How?
+2. we only get  `Volume` 1 features, what about the coordinate data in brain (cortex, subcortex)
+
+
+
+* surface reconstruction (待解决)
+
+参考<https://github.com/Deep-MI/FastSurfer/blob/dev/recon_surf/README.md>
+
+reconstruction 效果, 下面那一行
+
+![image-20240923203218745](./assets/image-20240923203218745.png)
+
+
+

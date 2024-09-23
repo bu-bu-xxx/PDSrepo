@@ -1,0 +1,3 @@
+/fastsurfer/run_fastsurfer.sh --fs_license /fs_license/license.txt --t1 /data/I31143.nii.gz --sid I31143.nii --sd /output --seg_only --parallel
+Wed, 07 Feb 2024 23:44:26 +0000
+2.2.0+9f37d02
