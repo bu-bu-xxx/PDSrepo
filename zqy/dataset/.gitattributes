@@ -1,0 +1,2 @@
+test.tar.gz filter=lfs diff=lfs merge=lfs -text
+my_fastsurfer_analysis.tar.gz filter=lfs diff=lfs merge=lfs -text
