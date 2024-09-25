@@ -39,8 +39,7 @@ Prepare the job script file. (Filename: ngc_tf_m.sbatch)
 
 ```shell
 #!/bin/bash
-#Test for Tensorflow job running with 1 node, 1 task (1 process) with 
-limited with 8 tasks per 1 core
+
 #SBATCH --partition= h07gpuq1 # partition name
 #SBATCH --time=04:00:00 # walltime
 #SBATCH --nodes=1
@@ -63,5 +62,15 @@ sbatch ngc_tf_m.sbatch
 squeue -l
 ```
 
+# workflows
 
+[add workflows](https://studenthpc.polyu.edu.hk/pun/sys/myjobs/workflows)
+
+[check workflows](https://studenthpc.polyu.edu.hk/pun/sys/dashboard/activejobs)
+
+[guidance](https://connectpolyu-my.sharepoint.com/personal/itsupres_connect_polyu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fitsupres%5Fconnect%5Fpolyu%5Fhk%2FDocuments%2FResearchWebPage%2FSHPC%2FOOD%2Fweb%5Fhpcmanage%2Epdf&parent=%2Fpersonal%2Fitsupres%5Fconnect%5Fpolyu%5Fhk%2FDocuments%2FResearchWebPage%2FSHPC%2FOOD&ga=1)
+
+示例，注意`#SBATCH`前不能加任何其他命令，否则会读取失败，进入默认
+
+![image-20240925175859198](./assets/image-20240925175859198.png)
 
