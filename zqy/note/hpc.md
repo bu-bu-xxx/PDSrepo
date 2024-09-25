@@ -19,11 +19,11 @@ singularity: /hpc/hpcapps/singularity/singularity-ce-3.11.3/bin/singularity
 
 用HPC登入vscode，实际上是登入一个container
 
-`ssh`和`vscode`登入的`groups`有一个不同，`ssh groups (w2425_p01)` 但是 `vscode groups (nobody)`
+`ssh`登入的是你的实际环境
 
-在`nobody`里有`nvidia-smi`，但是没有权限访问`singularity`
+在`Apptainer`里有`nvidia-smi`，但是没有`singularity`
 
-`w2425_p01`里支持`singularity`，但是没有`nvidia-smi`
+`ssh`里支持`singularity`，但是没有`nvidia-smi`
 
 所以需要先ssh登入，然后复制`singularity`到家目录，然后设置`export PATH=`，就可以跑`singularity & nvidia-smi`，**这个方法行不通**
 
