@@ -100,11 +100,11 @@ reconstruction 效果, 下面那一行
 
 ## 介绍
 
-1. `stat`文件有很多，需要找到每个features 代表什么意思，怎么用
+1. `stats`文件有很多，需要找到每个features 代表什么意思，怎么用
 
-2. 缺少了ROI位置信息，ROI和ROI之间的路径长度
-3. 因为kaggle上数据有删减，保留了fastsurfer上讲的主要使用数据，如果有需要，需要自己跑一遍标准程序。需要写一个`shell or python`脚本，自动化运行，计算和删减和压缩，上传，建议用学校的HPC
-4. 把数据`.txt`转换成更方便使用的`.csv`，进行优化，通过mean、std进行调整
+2. 缺少了ROI通讯路径参数，ROI和ROI之间的路径长度, fiber connection, 点和点之间edge的数据， correlation coefficient
+3. 因为kaggle上数据有删减，保留了fastsurfer上讲的主要使用数据，如果有需要，需要自己跑一遍标准程序。需要写一个`shell or python`脚本，自动化运行，计算和删减和压缩，上传，建议用学校的HPC，得到raw数据
+4. 把数据`.txt`转换成更方便使用的`.csv`，进行优化，通过mean、std进行调整 
 
 ```
 # csv 文件大概要有大概几个features
