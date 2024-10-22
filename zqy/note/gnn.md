@@ -43,3 +43,9 @@ datasets
 
 ![image-20241021193925663](./assets/image-20241021193925663.png)
 
+# graph convolution layer
+
+<https://arxiv.org/abs/1710.10903>
+
+keras
+
